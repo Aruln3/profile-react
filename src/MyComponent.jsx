@@ -5,7 +5,7 @@ const MyComponent = () => {
     const dialog = document.getElementById("sharesDialog");
     dialog.showModal();
   };
-
+ 
   const closesDialog = () => {
     const dialog = document.getElementById("sharesDialog");
     dialog.close();
