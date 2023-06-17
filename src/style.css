@@ -99,6 +99,7 @@ html {
 
 .dLqIok { 
   margin: 0px auto; 
+  height: 100%; 
   width: 100%; 
   max-width: 680px;
 } 
@@ -137,6 +138,7 @@ html {
   flex-direction: column;
   width: 100%;
   margin-top: 40px;
+  height: 100%;
 } 
 
 .jrDHLp { 
@@ -315,18 +317,18 @@ a {
   position: relative;
   justify-content: center;
   display:flex;
-} 
+}
 
 svg { 
   display: block; 
   vertical-align: middle;
-} 
+}  
 
 .edUYGH { 
   margin-top: 8px; 
   fill: rgb(29, 29, 29); 
-  width: 32px; 
-  height: 32px;
+  width: 24px; 
+  height: 24px;
 } 
 
 .cYLuAZ svg  { 
