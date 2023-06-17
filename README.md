@@ -1,3 +1,3 @@
-# profile-react
+<!-- # profile-react
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-5jnfn4)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-5jnfn4) -->
