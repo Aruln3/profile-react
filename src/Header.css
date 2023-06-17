@@ -1,0 +1,125 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  /* background-color: #5ED8FF;  */
+  z-index: 9999; /* Ensure the header is above other elements */
+  background-color: rgba(255, 255, 255, 0);
+  transition: right 0.3s ease-in-out;
+  
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px; /* Adjust the value to control the sidebar width */
+   margin-top: 54px;
+  z-index: 9998; /* Ensure the sidebar is above other elements */
+}
+
+
+.sidebar ul {
+  margin-top: -12px;
+  list-style-type: none; /* Remove the list dots */
+  padding: 10px; /* Add desired padding */
+  cursor: pointer;
+  font-family: 'Capriola', sans-serif;
+  
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 110px;
+    display: flex;
+    padding: 10px 20px;
+    background-color: rgb(217, 240, 245);
+    border: 2px solid rgb(0, 0, 0);
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.sidebar li:hover {
+  box-shadow: rgb(0, 0, 0) 6px 6px 0px 0px;/* Adjust shadow for hover effect */
+  border: 2px solid rgb(0, 0, 0);
+    color: rgb(29, 29, 29);
+    background-color: rgb(217, 240, 245);
+}
+
+
+.sidebar.open {
+  right: 0;
+}
+
+.scrolled {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 1px 24px -1px rgba(0, 0, 0, 0.2);
+  /* Add any other necessary styles */
+  height: 45px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px; 
+  text-align: center; 
+  font-weight: 700; 
+  color: rgb(29, 29, 29); 
+  font-size: 16px; 
+  line-height: 1;
+font-family: 'Capriola', sans-serif;
+  top: -10px;
+
+  .sidebar-toggle{
+    margin-top: 10px;
+   }
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  padding: 40;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  padding: 10;
+}
+
+
+/* Additional styling */
+body {
+  margin-bottom: 20px;
+  padding: 10;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.logo-container {
+  position: fixed;
+  top: -80px;
+  left: 20px;
+  transition: top 0.3s ease;
+}
+
+.logo-container.show {
+  top: 20px;
+}
