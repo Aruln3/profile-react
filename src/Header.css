@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 10px;
+  padding: 14px;
   position: fixed;
   top: 0;
   right: 0;
@@ -20,7 +20,7 @@
   position: fixed;
   top: 0;
   right: -300px; /* Adjust the value to control the sidebar width */
-   margin-top: 54px;
+   margin-top: 40px;
   z-index: 9998; /* Ensure the sidebar is above other elements */
 }
 
@@ -37,7 +37,7 @@
 .sidebar li {
   margin-bottom: 10px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
     width: 110px;
     display: flex;
     padding: 10px 20px;
