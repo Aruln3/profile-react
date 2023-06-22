@@ -3,9 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@fortawesome/fontawesome-svg-core": "~1 || ~6",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "babel/plugin-proposal-private-property-in-object": "*",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
