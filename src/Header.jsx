@@ -38,10 +38,9 @@ const Header = () => {
       </button>
       <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Contact</li>
+        <li onClick={() => window.location.href = '/home'}>Home</li>
+    <li onClick={() => window.location.href = '/about'}>About</li>
+    <li onClick={() => window.scrollTo(0, document.body.scrollHeight)}>Contact</li>
         </ul>
       </div>
     </header>

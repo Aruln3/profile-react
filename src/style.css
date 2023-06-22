@@ -3,6 +3,12 @@
   border:   0 solid;
 } 
 
+html, body {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+}
+
 div { 
   margin: 0px; 
   padding: 0px; 
@@ -64,7 +70,6 @@ div {
 } 
 
 body { 
-:   
   margin:   0px; 
   line-height:  1;
   padding:  0px; 
@@ -121,15 +126,17 @@ html {
   background-size: cover; 
   background-repeat: no-repeat; 
   background-color: rgb(84, 218, 223); 
-  background-image: url("https://i.postimg.cc/fZGQ4528/site-back.png"); 
-  background-repeat-x: no-repeat; 
-  background-repeat-y: no-repeat;
+  background-image: url("");
 } 
 
-/* https://i.postimg.cc/0kG5S89G/Untitled-design.png */
+
+/* 
+https://i.postimg.cc/fZGQ4528/site-back.png
+https://i.postimg.cc/0kG5S89G/Untitled-design.png 
+https://i.postimg.cc/W23fr9Qf/h.png*/
 .fcnSrV { 
   min-height: 100lvh; 
-  background-image: url("https://i.postimg.cc/fZGQ4528/site-back.png");
+  background-image: url("https://i.postimg.cc/BJsygrYm/h.png");
 } 
 
 .dTcluo {
@@ -177,7 +184,6 @@ font-family: 'Capriola', sans-serif;
 .cUWRuD { 
   flex-wrap: wrap;
   position: fixed;
-  bottom: 21px;
   -webkit-box-pack: center;
   justify-content: center;
   -webkit-box-align: center;
@@ -272,7 +278,6 @@ font-family: 'Capriola', sans-serif;
 } 
 
 a { 
-:  
   color:  inherit; 
   text-decoration:  inherit;
   margin: 0px; 
@@ -609,11 +614,10 @@ margin-bottom: 16px;
           
           transition: 0.5s;
           background-size: 200% auto;
-          color: white;            
+          color: rgb(255, 255, 255);            
           box-shadow: 0 0 20px #eee;
       
 border: none;
-display:flex; 
 text-align: center;
 text-decoration: none;
 display: inline-block;
@@ -621,7 +625,7 @@ border-radius: 50px;
 font-weight: 900;
 padding:10px;
 cursor: pointer;
-color:#1d1d1d;
+color:#000000;
 }
 
 .copy:hover { background-position: right center; /* change the direction of the change here */ color: #fff; text-decoration: none; }

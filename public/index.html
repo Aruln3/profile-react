@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+<div id="root"></div>
 <html lang="en">
 <head>
   <meta name="theme-color" content="#54DADF">
+  <!-- Windows Phone -->
   <meta name="msapplication-navbutton-color" content="#54DADF">
+  <!-- iOS Safari -->
   <meta name="apple-mobile-web-app-status-bar-style" content="#54DADF">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +15,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Arul</title>
   <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/Wb0k417R/d-fotor-20230612175029.png">
+  <style>
+     body::-webkit-scrollbar {
+      width: 5px;
+      background-color: #54DADF;
+    }
+
+    /* Track */
+    body::-webkit-scrollbar-track {
+      border-radius: 4px;
+      /* Adjust the height as desired */
+      height: 2px;
+    }
+
+    /* Handle */
+    body::-webkit-scrollbar-thumb {
+      background-color: #54DADF;
+      border-radius: 9px;
+    }
+
+    /* Handle on hover */
+    body::-webkit-scrollbar-thumb:hover {
+      background-color: #555;
+    }
+  </style>
+  <script>
+    // JavaScript to hide the scrollbar on the side for the entire page
+    window.addEventListener('DOMContentLoaded', () => {
+      document.body.style.overflowY = 'scroll'; // Enable vertical scrollbar on body
+      document.body.style.scrollbarWidth = 'thin'; // Set the width of the scrollbar
+      document.body.style.scrollbarColor = 'rgba(0, 0, 0, 0.2) transparent'; // Set the color of the scrollbar
+    });
+  </script>
 </head>
 <body>
   <div id="root"></div>
